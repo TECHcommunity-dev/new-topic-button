@@ -1,13 +1,5 @@
 <script type="text/discourse-plugin" version="0.8">
 
-api.createWidget('my-widget', {
-  tagName: 'span.hello',
-  
-  html() {
-    return "Hello";
-  }
-});
-
 api.decorateWidget("my-widget:after", helper => {
  // if (!api.getCurrentUser()) return;
 
@@ -49,8 +41,4 @@ api.decorateWidget("my-widget:after", helper => {
   );
 });
 
-</script>
-
-<script type="text/x-handlebars" data-template-name="/connectors/before-create-topic-button/my-widget">
-  {{mount-widget widget="my-widget"}}
 </script>
