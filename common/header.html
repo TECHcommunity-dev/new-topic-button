@@ -6,8 +6,6 @@ api.createWidget('techcomm-custom-new-topic-button-widget', {
 });
 
 api.decorateWidget("techcomm-custom-new-topic-button-widget:before", helper => {
- // if (!api.getCurrentUser()) return;
-
   let container = api.container,
     ntb_text = settings.New_topic_button_text,
     ntb_title = settings.New_topic_button_title.length
