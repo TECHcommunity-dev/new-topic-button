@@ -31,7 +31,13 @@ html.anon body.categories-list.category.category-webmethods-cloudstreams-connect
 }
 
 @media (max-width: 850px){
-#new-create-topic span {
+  #new-create-topic span {
     display: inline-block !important;
+  }
 }
+
+.archetype-private_message {
+	#new-create-topic {
+    display: none;
+  }
 }
