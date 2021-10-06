@@ -22,6 +22,18 @@
   }
 }
 
+#new-create-topic {
+    float: right;
+    font-size: 1.1rem !important;
+    background-color: #3cc1b7 !important;
+    color: #011f3d !important;
+    font-weight: bold !important;
+  
+    .svg-icon {
+      color: #011f3d !important;
+    }
+}
+
 
 body.category-news:not(.staff) #new-create-topic,
 body.category-news:not(.staff) #create-topic,
