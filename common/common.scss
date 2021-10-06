@@ -21,3 +21,17 @@
     display: none;
   }
 }
+
+
+body.category-news:not(.staff) #new-create-topic,
+body.category-news:not(.staff) #create-topic,
+html:not(.anon) .before-create-topic-button-outlet #new-create-topic,
+html.anon body.categories-list.category.category-webmethods-cloudstreams-connectors .navigation-controls #new-create-topic {
+    display: none !important;
+}
+
+@media (max-width: 850px){
+#new-create-topic span {
+    display: inline-block !important;
+}
+}
